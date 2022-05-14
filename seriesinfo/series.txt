@@ -1,0 +1,37 @@
+{
+	
+	"series" : [
+		{
+			"serie" : {
+				"name" : "The Big Bang Theory",
+				"nameKey" : "tbbt",
+				"lengueges" : ["esp","lat"],
+				"availServers" : ["mega","mediafire"]
+			}
+		},
+		{
+			"serie" : {
+				"name" : "Aquí No Hay Quien Viva",
+				"nameKey" : "anhqv",
+				"lengueges" : ["esp"],
+				"availServers" : ["mega"]
+			}
+		},
+		{
+			"serie" : {
+				"name" : "Castle",
+				"nameKey" : "cstl",
+				"lengueges" : ["esp"],
+				"availServers" : ["mega","mediafire"]
+			}
+		},
+		{
+			"serie" : {
+				"name" : "Padre De Familia",
+				"nameKey" : "pdf",
+				"lengueges" : ["esp","lat"],
+				"availServers" : ["mega","mediafire"]
+			}
+		}
+	]
+}

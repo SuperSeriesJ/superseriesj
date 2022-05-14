@@ -1,0 +1,371 @@
+body {
+	background: #000;
+}
+
+html {
+	color: #fff;
+	font-size: 16px;
+}
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*----- HEADER -----*/
+
+header {
+	width: 100%;
+}
+
+nav {
+	display: none;
+}
+
+.header-container {
+	position: relative;
+	width: 100%;
+	height: 20vh;
+	min-height: 200px;
+	border-bottom: 3px solid #fff;
+	margin-bottom: 40px;
+}
+
+
+.background-white {
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	height: 40%;
+}
+
+.header__content {
+	display: grid;
+	position: relative;
+	grid-template-columns: minmax(100px, 150px) 1fr;
+	grid-template-rows: 25% 25% 1fr;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+
+.header__img {
+	grid-row: span 3;
+	display: flex;
+}
+
+.header__img img {
+	border: 3px solid #000;
+	border-radius: 20px;
+	width: 80%;
+	max-width: 200px;
+	margin: auto 0;
+	margin-left: auto;
+}
+
+.header__name-pag {
+	grid-row: span 2;
+	display: flex;
+}
+
+.header__name-pag h1 {
+	display: inline-block;
+	background: #fff;
+	padding: 5px;
+	border: 3px solid #000;
+	border-radius: 10px;
+	color: #000;
+	align-self: flex-end;
+	justify-self: flex-start;
+	font-size: 19px;
+	height: 30%;
+	min-height: 35px;
+	text-align: center;
+	margin-left: 3%;
+}
+
+.header__servers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-self: flex-end;
+	align-self: flex-end;
+	justify-content: flex-end;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.header__servers h2 {
+	width: 100%;
+	text-align: right;
+	margin-right: 5%;
+}
+
+.header__servers img {
+	border-radius: 50%;
+	border: 3px solid #fff;
+	width: 20%;
+	max-width: 80px;
+	margin: 0 5px;
+}
+
+
+/*----- MAIN -----*/
+
+main {
+	width: 100%;
+}
+
+/*----- INTRO -----*/
+
+.intro {
+	width: 100%;
+}
+
+/*----- CARDS GENERAL STYLES -----*/
+
+.intro__info, .skyads, .main-title, .main-cards--container {
+	background: #45abde;
+	border-radius: 10px;
+	width: 90%;
+	padding: 10px;
+	margin: 0 auto;
+	color: #000;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/*----- CARD SKYADDS -----*/
+.skyads {
+	background: #f99;
+	border: 3px solid #000;
+	overflow: hidden;
+}
+
+/*----- SKYADDS TITTLE -----*/
+
+.skyads__menu {
+	position: relative;
+	width: 100%;
+	transition: height .3s;
+}
+
+.skyads__tittle {
+	background: #f44;
+	border-radius: 10px;
+	padding: 15px 10px;
+	transition: margin-bottom .6s;
+	cursor: pointer;
+	display: flex;
+	position: relative;
+	width: 100%;
+	justify-content: flex-end;
+	user-select: none;
+}
+
+.skyads__tittle h3 {
+	user-select: none;
+	width: 100%;
+}
+
+.arrow .skyads__tittle {
+	margin-bottom: 8px;
+}
+
+.arrow__item, .subarrow__item {
+	position: absolute;
+	margin-right: 10px;
+	transition: transform .3s;
+}
+
+.arrow .arrow__item {
+	transform: rotate(90deg);
+}
+
+.subarrow .subarrow__item {
+	transform: rotate(90deg);
+}
+
+
+.skyads__devices {
+	overflow: hidden;
+	height: 0;
+	transition: height margin-top .3s;
+	margin-top: 0;
+}
+
+.arrow .skyads__devices {
+	margin-top: 5px;
+}
+
+.skyads__device {
+	position: relative;
+	transition: height .3s;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.skyads__device-tittle {
+	display: flex;
+	background: #2389bf;
+	border-radius: 10px;
+	margin: 3px 0;
+	padding: 10px;
+	text-align: left;
+	justify-content: flex-end;
+}
+
+.skyads__device-tittle h4 {
+	width: 100%;
+}
+
+.skyads__video {
+	overflow: hidden;
+	height: 0;
+	transition: height .3s;
+}
+
+.skyads__device video {
+	width: 100%;
+	height: fit-content;
+	border-radius: 10px;
+}
+
+
+/*----- MAIN CONTAIN -----*/
+
+.main-title {
+	background: #fff;
+	width: 50%;
+}
+
+.main-cards--container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	grid-auto-rows: auto;
+	background: #dedede;
+	padding: 3px;
+	grid-gap: 5px;
+}
+
+.main-cards {
+	background: #000;
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 12px;
+	color: #fff;
+	height: fit-content;
+}
+
+.main-cards:hover {
+	background: #1a1a1a;
+}
+
+.main-cards:hover > .main-cards--img img {
+	border-color: #f44;
+}
+
+.main-cards:hover > h4 {
+	border-color: #45abde;	
+}
+
+.main-cards--img {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.main-cards--img img {
+	border: 3px solid #fff;
+	border-radius: 10px;
+	height: 100%;
+	object-fit: cover;
+}
+
+.main-cards h4 {
+	background: #000;
+	width: 100%;
+	padding: 5px 2px;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.main-cards h4:hover  {
+	background: #fff;
+	color: #000;
+}
+
+/* ========== MEDIA QUERIES ========== */
+
+@media only screen and (min-width: 650px) {
+	.main-cards--container {
+		grid-template-columns: 1fr 1fr 1fr;
+		justify-items: center;
+	}
+}
+
+@media only screen and (min-width: 750px) {
+	main {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.intro {
+		position: relative;
+		width: 100%;
+		min-height: 150px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: minmax(100px, 175px);
+		align-items: center;
+		z-index: 100;
+	}
+
+	.intro__info, .skyads {
+		margin: 0;
+		margin-right: 2.5%;
+		justify-self: flex-end;
+	}
+
+	.skyads {
+		margin-left: 2.5%;
+		justify-self: flex-start;
+	}
+
+	.main-title {
+		min-width: 100%;
+		padding-left: 25%;
+		padding-right: 25%;
+		background: #000;
+	}
+
+	.main-title h3 {
+		background: #fff;
+		padding: 5px;
+		border-radius: 10px;
+		max-width: 50%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	.skyads, .intro__info {
+		width: 70%;
+	}
+
+	.skyads {
+		margin-right: 8%;
+		top: 7px;
+	}
+
+	.card-info {
+		margin-left: 8%;
+	}
+
+	.main-cards--container {
+		grid-template-columns: repeat(4, 1fr);
+		padding: 8px;
+		grid-gap: 8px;
+	}
+}

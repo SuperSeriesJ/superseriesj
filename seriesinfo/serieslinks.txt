@@ -1,0 +1,93 @@
+{
+	"serieslinks" : [
+		{
+			"nameSerie" : "The Big Bang Theory",
+			"nameKey" : "tbbt",
+			"servers" : {
+				"esp" : {
+					"mega" : {
+						"Temporada-1" : "https://mega.io?esp",
+						"Temporada-2" : "https://mega.io?esp",
+						"Temporada-3" : "https://mega.io?esp",
+						"Temporada-4" : "https://mega.io?esp"
+					},
+					"mediafire" : {
+						"Temporada-1" : "https://mediafire.com?esp",
+						"Temporada-2" : "https://mediafire.com?esp",
+						"Temporada-3" : "https://mediafire.com?esp",
+						"Temporada-4" : "https://mediafire.com?esp",
+						"Temporada-5" : "https://mediafire.com?esp"
+					}
+				
+				},
+				"lat" : {
+					"mega" : {
+						"Temporada-1" : "https://mega.io?lat",
+						"Temporada-2" : "https://mega.io?lat",
+						"Temporada-3" : "https://mega.io?lat",
+						"Temporada-4" : "https://mega.io?lat"
+					},
+					"mediafire" : {
+						"Temporada-1" : "https://mediafire.com?lat",
+						"Temporada-2" : "https://mediafire.com?lat",
+						"Temporada-3" : "https://mediafire.com?lat",
+						"Temporada-4" : "https://mediafire.com?lat",
+						"Temporada-5" : "https://mediafire.com?lat"
+					}
+				
+				}
+
+			}
+		},
+		{
+			"nameSerie" : "Aqui no hay quien viva",
+			"nameKey" : "anhqv",
+			"servers" : {
+				"esp" : {
+					"mega" : {
+						"Temporada-1" : "https://mega.com"
+					},
+					"mediafire" : {
+						"Temporada-1" : "https://mediafire.com"
+					}
+				}
+			}
+		},
+		{
+			"nameSerie" : "Castle",
+			"nameKey" : "cstl",
+			"servers" : {
+				"esp" : {
+					"mega" : {
+						"Temporada-1" : "https://mega.com"
+					},
+					"mediafire" : {
+						"Temporada-1" : "https://mediafire.com"
+					}
+				}
+			}
+		},
+		{
+			"nameSerie" : "Padre De Familia",
+			"nameKey" : "pdf",
+			"servers" : {
+				"esp" : {
+					"mega" : {
+						"Temporada-1" : "https://mega.com"
+					},
+					"mediafire" : {
+						"Temporada-1" : "https://mediafire.com"
+					}
+				},
+				"lat" : {
+					"mega" : {
+						"Temporada-1" : "https://mega.com"
+					},
+					"mediafire" : {
+						"Temporada-1" : "https://mediafire.com"
+					}
+				}
+			}
+		}
+	]
+}
